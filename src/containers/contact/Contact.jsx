@@ -11,7 +11,7 @@ const Contact = () => (
           type="text"
           id="fname"
           name="firstname"
-          placeholder="Your name.."
+          placeholder="Your name"
           required
         ></input>
 
@@ -29,7 +29,7 @@ const Contact = () => (
           type="text"
           id="subject"
           name="subject"
-          placeholder="What are you contacting us about.."
+          placeholder="What are you contacting us about"
           required
         ></input>
 
@@ -37,7 +37,7 @@ const Contact = () => (
         <textarea
           id="subject"
           name="subject"
-          placeholder="Tell us more.."
+          placeholder="Tell us more"
           required
         ></textarea>
 
