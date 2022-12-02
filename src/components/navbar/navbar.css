@@ -82,7 +82,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-
+  z-index: 1001;
   text-align: end;
   background: var(--color-form);
   padding: 2rem;
