@@ -1,10 +1,10 @@
-import React from 'react';
-import './feature.css';
+import React from "react";
+import "./feature.css";
 
-const Feature = ({ title, text }) => (
+const Feature = ({ title, text, icon }) => (
   <div className="features-container__feature">
     <div className="features-container__feature-title">
-      <div />
+      <img src={icon} alt={title} />
       <h1>{title}</h1>
     </div>
     <div className="features-container_feature-text">

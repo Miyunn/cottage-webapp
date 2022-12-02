@@ -1,6 +1,9 @@
 import React from "react";
 import Feature from "../../components/feature/Feature";
 import "./intro.css";
+import bath from "../../assets/bath.svg";
+import sofa from "../../assets/sofa.svg";
+import bed from "../../assets/bed.svg";
 
 const Intro = () => {
   return (
@@ -15,9 +18,17 @@ const Intro = () => {
       </div>
 
       <div className="intro-container">
-        {/* <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" /> */}
+        <Feature
+          title="Living Room"
+          text="Airconditioned, Satalite TV and Free WiFi avaiable"
+          icon={sofa}
+        />
+        <Feature
+          title="3 Bedrooms"
+          text="Airconditioned, 2 rooms equiped with queen size beds"
+          icon={bed}
+        />
+        <Feature title="2 Bathrooms" text="With hotwater" icon={bath} />{" "}
       </div>
     </div>
   );
