@@ -1,22 +1,21 @@
-import React from 'react'
+import React from "react";
 
-import { Header, Footer, Intro, Features} from './containers';
-import { Navbar, } from './components';
-import './app.css';
+import { Header, Footer, Intro, Features, Contact } from "./containers";
+import { Navbar } from "./components";
+import "./app.css";
 
 const App = () => {
   return (
     <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
 
-        <div className='gradient__bg'>
-          <Navbar />
-          <Header />
-        </div>
+      <Intro />
+      <Contact />
 
-        <Intro /> 
-
-
-        {/* <Brand />
+      {/* <Brand />
 
         <Features />
         <Possiblity />
@@ -25,9 +24,8 @@ const App = () => {
          */}
 
       <Footer />
-        
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

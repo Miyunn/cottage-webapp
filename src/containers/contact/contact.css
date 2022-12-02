@@ -1,0 +1,55 @@
+.form {
+  border-radius: 5px;
+  padding: 20px;
+  font-family: var(--font-family);
+  background-color: var(--color-form);
+}
+
+.form h2 {
+  color: var(--color-text);
+  text-align: center;
+}
+
+.form-container {
+  padding: 2rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: var(--font-family);
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #000000;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+input[type="submit"]:hover {
+  color: #000;
+  background: var(--color-bg);
+  border: 1px solid #000;
+}

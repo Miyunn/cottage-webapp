@@ -1,33 +1,30 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import logo from '../../assets/logodark.png';
+import logo from "../../assets/logodark.png";
 
 const Menu = () => (
   <>
-
     <p>
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#wgpt3">About us</a>
+      <a href="#about">About us</a>
     </p>
     <p>
-      <a href="#possibility">Gallery</a>
+      <a href="#gallery">Gallery</a>
     </p>
     <p>
       <a href="#features">Facilities</a>
     </p>
     <p>
-      <a href="#blog">Reviews</a>
+      <a href="#reviews">Reviews</a>
     </p>
     <p>
-      <a href="#blog">Contact Us</a>
+      <a href="#contact">Contact Us</a>
     </p>
   </>
 );
-
-//BEM -> Block Element Modifier
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
