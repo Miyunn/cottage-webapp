@@ -31,7 +31,9 @@ const Footer = () => {
             43a, Anagarika Dharmapala Mawatha, <br />
             Kandy 20000
           </p>
-          <p>077-132567</p>
+          <p>
+            <a href="tel:+94 76 133 6668">+94 76 133 6668</a>
+          </p>
           <p>kandyapicottage@gmail.com</p>
         </div>
       </div>
