@@ -18,10 +18,11 @@ const Header = () => {
           like it’s your own house.
         </p>
 
-        {/* <div className='header-content__people'>
-        <p>1,600 people requested access a visit in last 24 hours</p>
-      </div> */}
+        <div className="header-content__people">
+          <p>1,600 people requested access a visit in last 24 hours</p>
+        </div>
       </div>
+
       <div className="header-image" data-aos="fade-left">
         <img src={header} alt="header" />
       </div>

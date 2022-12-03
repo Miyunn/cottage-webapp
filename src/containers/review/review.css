@@ -1,0 +1,15 @@
+.review-heading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 5rem;
+}
+
+.review-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  margin: 0 auto;
+}
