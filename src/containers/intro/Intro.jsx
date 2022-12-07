@@ -14,15 +14,15 @@ const Intro = () => {
   return (
     <div className="intro section__margin" id="about">
       <div className="intro-heading">
-        <h1 className="gradient__text" data-aos="fade-right">
+        <h1 className="gradient__text">
           A Cottage Where Modern Meets Tradition in an Ancident City
         </h1>
-        <a href="#gallery" data-aos="fade-left" data-aos-offset="500">
+        <a href="#gallery">
           <p>Explore our Gallery</p>
         </a>
       </div>
 
-      <div className="intro-container" data-aos="fade-up" data-aos-offset="500">
+      <div className="intro-container">
         <Feature
           title="Living Room"
           text="Airconditioned, Satalite TV and Free WiFi avaiable"

@@ -3,14 +3,16 @@ import "./reviewCard.css";
 
 const reviewCard = ({ name, text, date }) => {
   return (
-    <div className="reviewCard">
-      <div className="reviewCard__name">
-        <h1>{name}</h1>
-      </div>
-      <div className="reviewCard__text">
-        <p>{text}</p>
-        <div className="reviewCard__text-date">
-          <p> - {date}</p>
+    <div className="reveiws-container__reveiw">
+      <div className="reveiws-container__reveiw-text">
+        <div className="review-contrainer__review-name">
+          <h1>{name}</h1>
+        </div>
+        <div className="review-contrainer__review-content">
+          <p>{text}</p>
+        </div>
+        <div className="review-contrainer__review-date">
+          <p>{date}</p>
         </div>
       </div>
     </div>
